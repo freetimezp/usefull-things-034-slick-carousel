@@ -1,38 +1,29 @@
+
 var slickPrimary = {
-    autoplay: true,
-    autoplaySpeed: 2400,
+    autoplay: false,
     slidesToShow: 2,
     slidesToScroll: 1,
     speed: 1800,
-    cssEase: 'cubic-bezier(0.84, 0, 0.08, 0.99)',
-    asNavFor: '.text-slider',
+    cssEase: "cubic-bezier(0.84, 0, 0.08, 0.99)",
+    asNavFor: ".text-slider",
     centerMode: true,
-    prevArrow: $('.prev'),
-    nextArrow: $('.next')
-};
+    prevArrow: $(".prev"),
+    nextArrow: $(".next")
+}
 
 var slickSecondary = {
-    autoplay: true,
-    autoplaySpeed: 2400,
+    autoplay: false,
     slidesToShow: 1,
     slidesToScroll: 1,
     speed: 1800,
-    cssEase: 'cubic-bezier(0.84, 0, 0.08, 0.99)',
-    asNavFor: '.image-slider',
-    prevArrow: $('.prev'),
-    nextArrow: $('.next')
-};
+    cssEase: "cubic-bezier(0.84, 0, 0.08, 0.99)",
+    asNavFor: ".image-slider",
+    prevArrow: $(".prev"),
+    nextArrow: $(".next")
+}
 
-
-$('.image-slider').slick(slickPrimary);
-$('.text-slider').slick(slickSecondary);
-
-
-
-
-
-
-
+$(".image-slider").slick(slickPrimary);
+$(".text-slider").slick(slickSecondary);
 
 
 
